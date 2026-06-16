@@ -64,10 +64,7 @@ async def process_drive_folder(request: DriveFolderRequest, background_tasks: Ba
 
 @app.post("/find-matches")
 async def find_matches(selfie: UploadFile = File(...)):
-    """
-    This endpoint is specifically formatted for your React Frontend.
-    It returns the 'match_summary' and 'matches' keys the UI expects.
-    """
+
     # 1. Read the uploaded selfie
     raw = await selfie.read()
     arr = np.frombuffer(raw, dtype=np.uint8)
