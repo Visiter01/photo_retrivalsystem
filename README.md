@@ -1,3 +1,4 @@
+#Python Version --3.10.11 
 # SpotMe.ai
 
 **A High-Performance Face Recognition & Photo Retrieval System**
@@ -55,6 +56,7 @@ While the machine learning and database architectures are highly optimized, the 
 * **Negative Prompts (Ghosting):** Implement `EXCEPT` clauses to filter out specific individuals from the search results.
 * **Unsupervised Clustering:** Integrate algorithms like DBSCAN to automatically group and identify the "main characters" or most photographed individuals at an event without requiring an initial selfie prompt.
 * **Event-Based Partitioning:** Scale the database by partitioning the PostgreSQL tables based on specific events or dates.
+
 
 ***
 
